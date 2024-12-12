@@ -144,7 +144,8 @@ class PerpBitget():
                 params = {
                     'stopPrice': self.convert_price_to_precision(symbol, trigger_price),  # your stop price
                     "triggerType": "market_price",
-                    "reduceOnly": reduce
+                    "reduceOnly": reduce,
+                    "oneWayMode" : True
                 }
             )
         except BaseException as err:
