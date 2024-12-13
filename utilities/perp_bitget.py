@@ -93,7 +93,10 @@ class PerpBitget():
                 side, 
                 self.convert_amount_to_precision(symbol, amount), 
                 self.convert_price_to_precision(symbol, price),
-                params={"reduceOnly": reduce}
+                params={
+                    "reduceOnly": reduce,
+                    "oneWayMode" : True
+                    }
             )
         except BaseException as err:
             raise Exception(err)
@@ -111,7 +114,8 @@ class PerpBitget():
                 params = {
                     'stopPrice': self.convert_price_to_precision(symbol, trigger_price),  # your stop price
                     "triggerType": "market_price",
-                    "reduceOnly": reduce
+                    "reduceOnly": reduce.
+                    "oneWayMode" : True
                 }
             )
         except BaseException as err:
@@ -126,7 +130,10 @@ class PerpBitget():
                 side, 
                 self.convert_amount_to_precision(symbol, amount),
                 None,
-                params={"reduceOnly": reduce}
+                params={
+                    "reduceOnly": reduce,
+                    "oneWayMode" : True
+                    }
             )
         except BaseException as err:
             raise Exception(err)
