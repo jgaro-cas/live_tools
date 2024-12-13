@@ -21,6 +21,7 @@ class PerpBitget():
             self._auth = True
             self._session = ccxt.bitget(bitget_auth_object)
         self.market = self._session.load_markets()
+        self._session.set_position_mode(False)
 
     def authentication_required(fn):
         """Annotation for methods that require auth."""
