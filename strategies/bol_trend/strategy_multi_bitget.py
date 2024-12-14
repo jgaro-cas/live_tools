@@ -338,11 +338,11 @@ for pair in df_list:
 positions_data = bitget.get_open_position()
 for pos in positions_data:
     if pos["symbol"] in df_list and pos["side"] == "long":
-       pct_exposition = (float(pos["contracts"]) * float(pos["contractSize"]) * float(pos["info"]["marketPrice"])) / usd_balance
+       pct_exposition = (float(pos["contracts"]) * float(pos["contractSize"]) * float(pos["info"]["markPrice"])) / usd_balance
        positions_exposition[pos["symbol"]]["long"] += pct_exposition
        long_exposition += pct_exposition
     elif pos["symbol"] in df_list and pos["side"] == "short":
-       pct_exposition = (float(pos["contracts"]) * float(pos["contractSize"]) * float(pos["info"]["marketPrice"])) / usd_balance
+       pct_exposition = (float(pos["contracts"]) * float(pos["contractSize"]) * float(pos["info"]["markPrice"])) / usd_balance
        positions_exposition[pos["symbol"]]["short"] += pct_exposition
        short_exposition += pct_exposition
 
