@@ -39,13 +39,13 @@ params_coin = {
     "ETH/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "BNB/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "LTC/USDT:USDT": {
@@ -57,7 +57,7 @@ params_coin = {
     "ADA/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "XRP/USDT:USDT": {
@@ -87,37 +87,37 @@ params_coin = {
     "MANA/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "LINK/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "POL/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "ATOM/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "DOGE/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "FTM/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "BCH/USDT:USDT": {
@@ -135,19 +135,19 @@ params_coin = {
     "SAND/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "SOL/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "DOT/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "EGLD/USDT:USDT": {
@@ -159,49 +159,49 @@ params_coin = {
     "AVAX/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "FIL/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "AAVE/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "AXS/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "GRT/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "MASK/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "SHIB/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
     "APE/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
-        "bb_std": 1,
+        "bb_std": 1.5,
         "long_ma_window": 500
     },
 }
