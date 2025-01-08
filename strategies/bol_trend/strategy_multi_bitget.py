@@ -114,12 +114,12 @@ params_coin = {
         "bb_std": 1.5,
         "long_ma_window": 500
     },
-    "FTM/USDT:USDT": {
-        "wallet_exposure": 0.05,
-        "bb_window": 100,
-        "bb_std": 1.5,
-        "long_ma_window": 500
-    },
+    # "FTM/USDT:USDT": {
+    #     "wallet_exposure": 0.05,
+    #     "bb_window": 100,
+    #     "bb_std": 1.5,
+    #     "long_ma_window": 500
+    # },
     "BCH/USDT:USDT": {
         "wallet_exposure": 0.05,
         "bb_window": 100,
